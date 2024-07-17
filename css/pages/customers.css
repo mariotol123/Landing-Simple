@@ -1,0 +1,118 @@
+@import "../../root.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.wrapper-nav{
+    width: 100%;
+}
+
+.container-nav{
+    width: 100%;
+    max-width: 1106px;
+    margin-top: 1.5rem;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 15px;
+}
+
+svg{
+    fill: #9ca3af;
+}
+
+.svg-nav{
+    fill: #3b82f6;
+    cursor: pointer;
+}
+
+.ul-nav{
+    margin-left: 100px;
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    list-style: none;
+    gap: 3.5rem;
+    max-width: 633px;
+}
+
+
+
+.a-nav1{
+    background-color: rgb(255, 255, 255);
+    text-decoration: inherit;
+    box-shadow: var(--tw-shadow);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.a-nav2{
+    text-decoration: inherit;
+    color: #e5e7eb;
+    background-color: rgb(31 41 55);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 10px;
+}
+
+
+/* HEADER */
+
+.wrapper-header{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container-header{
+    width: 100%;
+    max-width: 768px;
+    border-top: 1px solid black;
+}
+
+.h1-div{
+    border-bottom: 1px solid black;
+    width: 100%;
+    max-width: 768px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.container-header > p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #374151;
+}
+
+.container-header > button {
+    background-color: #3b82f6;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.container-header > button > svg {
+    fill: rgb(147, 197, 253);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.container-header > button:hover > svg {
+    transform: translateX(2px);
+}
