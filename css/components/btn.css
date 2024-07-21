@@ -1,0 +1,23 @@
+.btn {
+    background-color: #3b82f6;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-svg {
+    fill: rgb(147, 197, 253);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.btn:hover > svg {
+    transform: translateX(2px);
+}

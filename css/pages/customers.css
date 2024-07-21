@@ -18,9 +18,14 @@ body{
     width: 100%;
     max-width: 1106px;
     margin-top: 1.5rem;
-    background-color: white;
     padding: 10px 12px;
     border-radius: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 svg{
@@ -93,7 +98,7 @@ svg{
     color: #374151;
 }
 
-.container-header > button {
+ .btn {
     background-color: #3b82f6;
     padding: 10px;
     color: white;
@@ -107,12 +112,83 @@ svg{
     align-items: center;
 }
 
-.container-header > button > svg {
+.btn-svg {
     fill: rgb(147, 197, 253);
     transition: transform 0.2s ease-in-out;
     position: relative;
 }
 
-.container-header > button:hover > svg {
+.btn:hover > svg {
     transform: translateX(2px);
+}
+
+
+
+/* FOOTER */
+
+.wrapper-footer{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container-footer{
+    width: 100%;
+    max-width: 1106px;
+}
+
+.h2-btn{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 3.5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.h2-btn > h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #111827;
+}
+
+ul{
+    list-style: none;
+}
+
+.under-footer{
+    margin-top: 50px;
+}
+
+.font-li{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #111827;
+}
+
+.font-li-second{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #111827;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+}
+
+.font-li-second:hover{
+    color: #111827;
+}
+
+.font-p-svg-footer{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #111827;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
 }
