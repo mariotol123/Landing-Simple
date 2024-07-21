@@ -1,0 +1,32 @@
+.btn {
+    font-family: var(--global-font-family);
+    font-size: 0.875rem;
+    align-content: center;
+    border: solid 0.8px lightgray;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    height: 2rem;   
+}
+
+.btnw {
+    background-color: white;  
+    color: var(--color-menu);  
+    width: 4rem;
+    margin-right: 0.4rem;
+}
+
+.btnb {
+    background-color: black;
+    color: white;
+    width: 5rem;
+    margin-right: 0.75rem;
+}
+
+.btn-svg {
+    border: transparent;
+    background-color: transparent;
+    fill: #9ca3af;
+    cursor: pointer;
+    text-decoration: none;
+}
+

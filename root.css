@@ -1,0 +1,10 @@
+:root {
+    --global-font-family: "Inter", sans-serif;
+    --global-font-size: 15px;
+    --global-max-widht: 1152px;
+    /* Colors */
+    --color-primary: #111827;
+    --color-accent: #3b82f6;
+    --color-secondary: #e5e7eb;
+    --color-menu: rgb(55 65 81);
+    }
