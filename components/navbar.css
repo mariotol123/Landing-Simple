@@ -1,26 +1,20 @@
 /*Contenitors Html*/
-.nav-1 {
-    padding-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 72rem;
-    gap: 0.75rem;
-}
-
-section {
-    font-family: var(--global-font-family);
-    font-size: 0.875rem;
-    border: solid 0.8px lightgray;
+nav {
+    position: fixed;
+    border: 1px solid lightgrey;
     border-radius: 1rem;
-    height: 50px;
-    width: 1115px;
+    height: 3.3rem;
+    margin-top: 1.3rem;
+    margin-left: 15%;
+    width: 70%;
+    background-color: white;
 }
 
-/*Icon*/
-.primo {
-    margin: 0.75rem;
-    justify-content: flex-start;
-    flex-grow: 1;
+
+/*Logo*/
+.nav__logo {
+    margin-left: 0.6rem;
+    cursor: pointer;
 }
 
 .primo-1 {
@@ -32,15 +26,55 @@ section {
 }
 
 /* Item */
-.menu {
-    align-content: center;
-    flex-grow: 1;
-    padding-left: 6rem;
+
+.nav__menu-item > a {
+    text-decoration: none;
+    color: var(--color-menu);
+    font-family: var(--global-font-family);
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.dropdown__box a {
+    font-family: var(--global-font-family);
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 14px;
+    color: var(--color-primary);
+}
+
+.dropdown {
+    position: relative;
+}
+
+
+.dropdown__box {
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    transition: all ease-in-out .15s;
+}
+
+.dropdown:hover .dropdown__box {
+    opacity: 1;
+    visibility: visible;
+    top: 140%;
+    left: -25%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 0.75rem;
+    font-family: var(--global-font-family);
 }
 
 /* Buttons */
 
-.button {
-    align-content: center;
-    justify-content: flex-end;
+button {
+    cursor: pointer;
 }
