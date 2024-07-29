@@ -278,6 +278,25 @@ body {
     color: #d1d5db;
 }
 
+.bg-blk-1 {
+    background-color: #374151;
+    color: #d1d5db;
+}
+
+.bg-blk-2 {
+    background-color: #374151;
+    color: #d1d5db;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.bg-blk-3 {
+    background-color: #374151;
+    color: #d1d5db;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
 .hero__pricing-card .card__content .card__content-text h4 {
     text-decoration-line: underline;
 }
@@ -360,38 +379,43 @@ main {
 
 .table .elem-1 {
     font-weight: 500;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+    padding: 2rem;
 }
 
 .table .elem-2 {
     font-weight: 700;
-    margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
+    /*margin-top: 1.25rem;
+    margin-bottom: 0.5rem;*/
+    padding: 2rem;
 }
 
 .table .elem-3 {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 4px;
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
+    padding: 2rem;
 }
 
 .table .elem-4 {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     font-size: 0.85rem;
     line-height: 1.50;
+    padding: 2rem;
 }
 
 .table .elem-5 {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     fill: #10b981;
+    padding: 2rem;
 }
 
 .sec2-top-title {
     font-size: 2.25rem;
     line-height: 1.25;
     text-align: center;
-    margin-top: 44rem;
+    margin-top: 85rem;
 }
 
 .row {
@@ -406,7 +430,7 @@ main {
   width: 150px;
   fill: grey;
   align-content: space-around;
-  gap: 1rem;;
+  gap: 1rem;
   line-height: 1rem;
   }
 
@@ -461,7 +485,7 @@ main {
     text-align: center;
     font-size: 2.25rem;
     line-height: 1.25;
-    margin-top: 120rem;
+    margin-top: 165rem;
 }
 
 .content {
@@ -503,7 +527,7 @@ main {
 .container-footer {
     width: 100%;
     max-width: 1106px;
-    margin-top: 150rem;
+    margin-top: 190rem;
 }
 
 .h2-btn {
