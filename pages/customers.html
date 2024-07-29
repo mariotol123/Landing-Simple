@@ -7,36 +7,57 @@
     <link rel="stylesheet" href="customers.css">
     <link rel="stylesheet" href="../utility/index.css">
     <link rel="stylesheet" href="../components/navbar.css">
+    <link rel="stylesheet" href="../root.css">
+    <link rel="stylesheet" href="/index.css" />
 </head>
 <body>
-    <nav class="wrapper nav-1">
-        <section class="container">
-            <svg class="primo" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
-                <path class="primo-1"
-                    d="M15.052 0c6.914.513 12.434 6.033 12.947 12.947h-5.015a7.932 7.932 0 0 1-7.932-7.932V0Zm-2.105 22.985V28C6.033 27.487.513 21.967 0 15.053h5.015a7.932 7.932 0 0 1 7.932 7.932Z"
-                    clip-rule="evenodd"></path>
-                <path class="primo-2"
-                    d="M0 12.947C.513 6.033 6.033.513 12.947 0v5.015a7.932 7.932 0 0 1-7.932 7.932H0Zm22.984 2.106h5.015C27.486 21.967 21.966 27.487 15.052 28v-5.015a7.932 7.932 0 0 1 7.932-7.932Z"
-                    clip-rule="evenodd"></path>
-            </svg>
-            <div class="menu">
-                <a class="pad cm" href="https://preview.cruip.com/simple/pricing.html">Pricing</a>
-                <a class="pad cm" href="https://preview.cruip.com/simple/customers.html">Customers</a>
-                <a class="pad cm" href="https://preview.cruip.com/simple/blog.html">Blog</a>
-                <a class="pad cm" href="https://preview.cruip.com/simple/documentation.html">Docs</a>
-                <span class="cm">Extra</span>
-            <svg class="btn-svg"  xmlns="http://www.w3.org/2000/svg" width="10"
-                height="6">
-                <path d="m1.06.19 3.5 3.5 3.5-3.5 1.061 1.06-4.56 4.56L0 1.25 1.06.19Z"></path>
-            </svg>
+    <nav class="wrapper">
+        <div class="container flex flex-row justify-between">
+            <div class="nav__logo items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+                    <path class="primo-1"
+                        d="M15.052 0c6.914.513 12.434 6.033 12.947 12.947h-5.015a7.932 7.932 0 0 1-7.932-7.932V0Zm-2.105 22.985V28C6.033 27.487.513 21.967 0 15.053h5.015a7.932 7.932 0 0 1 7.932 7.932Z"
+                        clip-rule="evenodd"></path>
+                    <path class="primo-2"
+                        d="M0 12.947C.513 6.033 6.033.513 12.947 0v5.015a7.932 7.932 0 0 1-7.932 7.932H0Zm22.984 2.106h5.015C27.486 21.967 21.966 27.487 15.052 28v-5.015a7.932 7.932 0 0 1 7.932-7.932Z"
+                        clip-rule="evenodd"></path>
+                </svg>
             </div>
-            <div class="button">
+            <div class="nav__menu flex flex-row gap justify-center items-center">
+                <div class="nav__menu-item">
+                    <a href="https://preview.cruip.com/simple/pricing.html">Pricing</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="https://preview.cruip.com/simple/customers.html">Customers</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="https://preview.cruip.com/simple/blog.html">Blog</a>
+                </div>
+                <div class="nav__menu-item">
+                    <a href="https://preview.cruip.com/simple/documentation.html">Docs</a>
+                </div>
+                <div class="nav__menu-item dropdown">
+                    <a>Extra
+                        <svg class="btn-svg" xmlns="http://www.w3.org/2000/svg" width="10" height="6">
+                            <path d="m1.06.19 3.5 3.5 3.5-3.5 1.061 1.06-4.56 4.56L0 1.25 1.06.19Z"></path>
+                        </svg>
+                    </a>
+                    <div class="dropdown__box">
+                        <div class="dropdown__box-item">
+                            <a href="https://preview.cruip.com/simple/support.html">Support</a>
+                        </div>
+                        <div class="dropdown__box-item">
+                            <a href="https://preview.cruip.com/simple/apps.html">Apps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-center">
                 <button class="btn btnw">Log In</button>
                 <button class="btn btnb">Register</button>
             </div>
-        </section>
+        </div>
     </nav>
-
     <header>
         <div class="wrapper-header flex flex-col items-center">
             <div class="container-header flex flex-col items-center gap-4">
@@ -54,8 +75,254 @@
         </div>
     </header>
 
-    <main></main>
-
+    <main>
+        <div class="wrapper-main flex flex-col items-center">
+            <div class="container-main">
+                <div class="card-container flex justify-center ">
+                    <div class="card flex font incline-card">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font incline-card-2">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div class="high-card">
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex font">
+                        <div>
+                            <div class="flex gap-3">
+                                <img src="https://preview.cruip.com/simple/images/testimonial-01.jpg" alt="">
+                                <div class="flex flex-col gap-1">
+                                    <p>Peter Lowe</p>
+                                    <p>@peterlowex</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Simple has revolutionized the way I manage my work. 
+                                    Its intuitive interface and seamless functionality make staying organized effortless. 
+                                    I can't imagine my life without it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <footer>
