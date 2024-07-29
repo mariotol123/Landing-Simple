@@ -5,6 +5,10 @@
     /* Colors */
     --color-primary: #111827;
     --color-accent: #3b82f6;
+    --color-accent-2: #10b981;
     --color-secondary: #e5e7eb;
     --color-menu: rgb(55 65 81);
-    }
+
+    /*Colors pricing*/
+    --color-secondary-header: #374151;
+}
